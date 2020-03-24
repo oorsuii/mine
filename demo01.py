@@ -7,39 +7,40 @@ print(()) # 元祖
 print([]) # 数组
 print({}) # 字典
 
-哈啊哈哈哈
 
 print("哈哈哈哈", 233333)
 print("嘻嘻"+"哈哈") #字符串的拼接，只能同类型的字符串进行拼接，比如不能汉字和数字进行拼接
 print("哈哈哈"*100) #乘
-print(((1+2)*100-99)/2)
-print(2>3) #布尔值判断
-print(2<3) #布尔值判断
+print(((1+2)*100-99)/2) #运算
+print(2>3) #布尔值判断 False
+print(2<3) #布尔值判断True
 
+
+#变量、赋值
 name = "张三" #name是变量 张三是赋给name的值
 print(name)
-"""
 
 
-"""
+#input方法
 a = input("请输入：") #通过input获取的都是字符串
 print("input获取的内容：",a)
-"""
-"""
-a = input("请输入：") #通过input获取的都是字符串,只能拼接
+
+
+#通过input获取的都是字符串,只能拼接
+a = input("请输入：") 
 b = input("请输入：")
 print("input获取的内容：",a+b)
 """
 
-
-#数据格式的转换
+"""
+#type方法
 # print(type("哈哈哈"))   #字符串str
 # print(type(66666))     #整数int
 # print(type(2.666666))  #小数float
-# print(type(True))      #布尔值
-# print(type(()))        #元祖
-# print(type([]))        #数组
-# print(type({}))        #字典
+# print(type(True))      #布尔值bool
+# print(type(()))        #元祖tuple
+# print(type([]))        #数组list
+# print(type({}))        #字典dict
 
 
 # #将整数型转化为字符串
@@ -47,7 +48,7 @@ print("input获取的内容：",a+b)
 # print(type(a))
 
 
-#将整数型转化为字符串
+#将小数型转化为字符串
 # b = int(2.33333)
 # print(type(b))
 
@@ -64,10 +65,29 @@ print("input获取的内容：",a+b)
 # print("b的长度：",b)
 # print("字段长度和",a+b)
 
-a = len(input("第一段内容："))
-b = len(input("第一段内容："))
-print("字段长度和：",a+b)
-happy
+# a = len(input("第一段内容："))
+# b = len(input("第一段内容："))
+# print("字段长度和：",a+b)
+"""
 
 
+a = input("请输入a的值：")
+print("a的内容：",a)
+b = len(a)
+print("a的内容的长度",b)
+c = input("请输入c的值：")
+print("c的内容：",c)
+d = len(c)
+print("c的内容的长度",d)
+print("a和c内容的长度和：",b+d)
+
+# a = input()
+# print(a)
+# b = len(a)
+# print(b)
+# c = input()
+# print(c)
+# d=len(c)
+# print(d)
+# print(b+d)
 
