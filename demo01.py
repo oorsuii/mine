@@ -67,6 +67,7 @@ print("input获取的内容：",a+b)
 a = len(input("第一段内容："))
 b = len(input("第一段内容："))
 print("字段长度和：",a+b)
+happy
 
 
 
